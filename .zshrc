@@ -1,3 +1,4 @@
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 alias ll="ls -la" 
 autoload -Uz vcs_info
 precmd() { vcs_info }
